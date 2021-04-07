@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: my-theme
+theme: my-theme-dev
 style: |
   section {
     font-size: 28px
