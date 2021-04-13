@@ -11,7 +11,7 @@ footer: Test File for `my-theme`
 
 # Standard Slide
 
-Some text
+![](path_mcmc.gif)
 
 ---
 
