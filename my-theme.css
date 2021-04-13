@@ -11,8 +11,8 @@ section {
   color: rgba(
     59, 59, 59
     );
-  /* background: white; */
-  background-image: pink;
+  background: white;
+  /* background-image: pink; */
   display: flex;
   flex-direction: color;
   flex-wrap: nowrap;
