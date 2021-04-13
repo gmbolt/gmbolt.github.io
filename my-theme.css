@@ -12,7 +12,7 @@ section {
     59, 59, 59
     );
   /* background: white; */
-  background-image: white;
+  background-image: pink;
   display: flex;
   flex-direction: color;
   flex-wrap: nowrap;
