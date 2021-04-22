@@ -88,3 +88,41 @@ blockquote {
   all: revert;
   background: pink;
 } */
+
+section.left ol, section.left ul {
+  margin: 0px 50px 0px 50px;
+  padding-left: 0px
+}
+
+section.left h4, section.left h2, section.left p, section.left h1 {
+  text-align: left
+}
+
+section.left_clist h4, section.left_clist h2, section.left_clist p, section.left_clist h1 {
+  text-align: left
+}
+
+section.invert h1, section.invert footer {
+  color: white;
+}
+section.invert h1 {
+  font-size: 70px
+}
+section.invert::after {
+  background-image: none;
+  color: white; 
+  height: 10px;
+  justify-content: center;
+  padding-bottom:24px;
+  padding-top: 23px;
+  width: 25px;
+  font-size: 16px;
+}
+
+section.amplify p {
+  font-size: 40px;
+}
+
+section.lead h1 {
+  font-size: 70px;
+}
