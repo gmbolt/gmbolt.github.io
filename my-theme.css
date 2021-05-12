@@ -49,6 +49,31 @@ p {
   letter-spacing: px;
 } */
 
+/* Some custom Section styles*/ 
+
+section.left ol, section.left ul {
+  margin: 0px 0px 0px 10px
+}
+
+section.left h4, section.left h2, section.left p, section.left h1 {
+  text-align: left
+}
+
+section.left_clist h4, section.left_clist h2, section.left_clist p, section.left_clist h1 {
+  text-align: left
+}
+
+section.invert h1, section.invert footer {
+  color: white;
+}
+section.invert h1 {
+  font-size: 70px
+}
+
+section.amplify p {
+  font-size: 40px
+}
+
 h1 {
   color: rgba(
     59, 59, 59
