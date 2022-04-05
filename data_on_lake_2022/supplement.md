@@ -8,7 +8,7 @@
 * Animation shows multiset of paths (big gaps indicated distinct paths) corresponding to marker on traceplots;
 * Green entries are common with mode, whilst magenta entries highlight errors;
 * Simulation parameters
-    * $\mathcal{E}^m = ((1,2,1),(1,3,2,1,4),(1,2,4), (1,5,1), (1,5), (2,1))$ (plotted in Data section of poster);
+    * $\mathcal{E}^m$ = ((1,2,1), (1,3,2,1,4), (1,2,4), (1,5,1), (1,5), (2,1)) (plotted in Data section of poster);
     * $\gamma=4.0$;
     * $n=50$;
     * $d_E(\cdot, \cdot)$ taken as matching distance (defined on posterior), with distance between paths based upon common subsequences;
