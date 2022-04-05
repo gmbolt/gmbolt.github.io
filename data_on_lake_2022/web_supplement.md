@@ -1,6 +1,21 @@
-# Supplement: Modelling Populations of Interaction Networks - Data on the Lake 2022 
+# Supplement - Modelling Populations of Interaction Networks - Data on the Lake 2022 
+
 
 ![](posterior_sample.gif)
 
-## Extra details 
+* Animation shows multiset of paths (big gaps distinguish paths) corresponding to marker on traceplots;
+* Green entries are common with mode, whilst magenta entries highlight errors;
+* Simulation parameters
+    * $\mathcal{E}^m = ((1,2,1),(1,3,2,1,4),(1,2,4), (1,5,1), (1,5), (2,1))$ (plotted in Data section of poster);
+    * $\gamma=4.0$;
+    * $n=50$;
+    * $d_E(\cdot, \cdot)$ taken as matching distance (defined on posterior), with distance between paths based upon common subsequences;
+* Initialised MCMC chain at $\mathcal{E}_0 = ((10,10))$ and $\gamma_0=3.0$.
 
+
+## Simulated Data 
+
+* Below is the $n=50$ observations $\{\mathcal{E}^{(i)}\}_{i=1}^n$ used in this simulation, drawn from an $\text{SIM}(\mathcal{E}^m, \gamma)$ model (approximately via MCMC algorithm);
+* Green entries are common with the mode $\mathcal{E}^m$, whilst pink entries highlight errors.
+
+![](data.png)
