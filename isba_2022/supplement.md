@@ -1,4 +1,4 @@
-# Supplement - Modelling Populations of Path-observed Networks - ISBA World Meeting 2022
+### Supplement - Modelling Populations of Path-observed Networks - ISBA World Meeting 2022
 
 
 *George Bolt - g.bolt@lancaster.ac.uk - https://lancaster.ac.uk/~boltg/*
@@ -15,7 +15,7 @@
 * Initialised MCMC chain at $\mathcal{E}_0 = ((10,10))$ and $\gamma_0=3.0$.
 
 
-## Data 
+#### Data 
 
 * Below is the $n=25$ observations $\{\mathcal{E}^{(i)}\}_{i=1}^n$ used in this simulated example, drawn from an $\text{SIM}(\mathcal{E}^m, \gamma)$ model (approximately via MCMC algorithm);
 * Green entries are common with the mode $\mathcal{E}^m$, whilst pink entries highlight errors.
