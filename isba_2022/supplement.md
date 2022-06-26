@@ -5,7 +5,7 @@
 
 ![](posterior_sample.gif)
 
-* Animation shows multiset of paths (big gaps separate distinct paths) corresponding to marker on traceplots;
+* Animation shows multiset of paths corresponding to marker on traceplots (big gaps separate distinct paths);
 * Green entries are common with mode, whilst magenta entries highlight errors;
 * Simulation parameters
     * $\mathcal{E}^m$ = ((1,2,1), (1,3,2,1,4), (1,2,4), (1,5,1), (1,5), (2,1))
