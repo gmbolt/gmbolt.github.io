@@ -54,11 +54,12 @@ jobs:
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
             using Franklin;
             optimize()'
-    - run: ls -a
     - name: Upload artifact
       # Automatically uploads an artifact from the './_site' directory by default
       uses: actions/upload-pages-artifact@v1
-
+      with:
+        path: "__site/" # Default is "_site/" but seems Franklin returns with two underdashes
+      
     # - name: Build and Deploy
     #   uses: JamesIves/github-pages-deploy-action@releases/v3
     #   with:
