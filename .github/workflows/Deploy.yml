@@ -1,8 +1,22 @@
 name: Build and Deploy
 on:
   push:
-    branches:
-      - main
+    branches: [$default-branch]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +37,11 @@ jobs:
       uses: julia-actions/setup-julia@v1
       with:
         version: 1.6
-    # NOTE
+        
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v3
+  # NOTE
     #   The steps below ensure that NodeJS and Franklin are loaded then it
     #   installs highlight.js which is needed for the prerendering step
     #   (code highlighting + katex prerendering).
