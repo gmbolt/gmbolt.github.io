@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and deploy
 on:
   push:
     branches: [$default-branch]
@@ -37,7 +37,7 @@ jobs:
       uses: julia-actions/setup-julia@v1
       with:
         version: 1.6
-        
+
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v3
