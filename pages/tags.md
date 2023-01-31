@@ -1,4 +1,4 @@
-@def title = "Menu 3"
+@def title = "Tags"
 
 # Working with tags
 
