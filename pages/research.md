@@ -9,15 +9,14 @@ rss = "A short description of the page which would serve as **blurb** in a `RSS`
 # Research
 
 My research touches upon
-* Network data analysis (i.e. network science)
+* Statistical network analysis 
 * Bayesian statistics
 * Computational statistics
-* Unsupervised learning 
 
 ## Papers
 
-* Modelling Populations of Interactions Networks via Distance Metrics - paper - code
-* Distances for Comparing Multisets and Sequences - paper - code
+* [Modelling Populations of Interactions Networks via Distance Metrics](https://arxiv.org/abs/2206.09995), published in *arXiv*, 2022
+* [Distances for Comparing Multisets and Sequences](https://arxiv.org/abs/2206.08858), published in *arXiv*, 2022
 
 
 ## Projects
