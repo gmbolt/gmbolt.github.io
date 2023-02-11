@@ -30,7 +30,7 @@ Add here global latex commands to use throughout your pages.
         <div class="container">
             <h3 style="padding-bottom: 0px;margin-top: 16px;margin-bottom: 0px; font-size: 25px;"><b>!#1</b></h3>
             <p>!#2</p>
-            <p><a href="!#3">Learn more...</a></p>
+            <p><a href="!#3" class="btn btn--primary">Learn more...</a></p>
         </div>
     </div>
     ~~~
