@@ -12,6 +12,7 @@ My research touches upon
 * Statistical network analysis 
 * Bayesian statistics
 * Computational statistics
+* Unsupervised learning
 
 ## Papers
 
