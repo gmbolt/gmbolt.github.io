@@ -9,7 +9,10 @@ mintoclevel = 2
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/", "google6d0f2989942ef341.html"]
+ignore = ["node_modules/"]
+
+# Keep paths - Franklin.jl will leave these files "exactly as is"
+keep_path = ["google6d0f2989942ef341.html"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
