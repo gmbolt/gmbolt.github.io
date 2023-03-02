@@ -7,7 +7,7 @@ date = Date(2023, 3, 2)
 
 This project was a collaboration between ~~~<a href="https://www.lancaster.ac.uk/stor-i/" target="_blank">STOR-i</a>~~~, the Centre for Doctoral Training (CDT) at Lancaster University where I did my PhD, and ~~~<a href="https://www.elsevier.com/en-gb" target="_blank">Elsevier</a>~~~, an academic publishing company. Elsevier provide various online services and tools for researchers, such as ~~~<a href="https://www.mendeley.com/" target="_blank">Mendeley</a>~~~ and ~~~<a href="https://www.sciencedirect.com/" target="_blank">ScienceDirect</a>~~~, and were interested in the problem of **user segmentation** - understanding who their users are and how they interact with their platforms. Our goal was to develop novel methodologies to assist with this task.
 
-Of particular interest at the time was analysis of **clickstream data** (Fig. 1), which contains information regarding visits of users to Elseiver webpages. The data has two key properties which decided to leverage. Namely, it is both **intermittent** and **bursty**, with cascades of clicks in quick succession followed by periods of inactivity. As we will show, this provided a means to interpret this as **network data**. 
+Of particular interest at the time was analysis of **clickstream data** (Fig. 1), which contains information regarding visits of users to Elseiver webpages. The data has two key properties which we decided to leverage. Namely, it is both **intermittent** and **bursty**, with cascades of clicks in quick succession followed by periods of inactivity. As we will show, this provided a means to interpret this as **network data**. 
 
 \figenv{
     /assets/phd-diagrams/clickstream_data.png
@@ -20,9 +20,9 @@ Of particular interest at the time was analysis of **clickstream data** (Fig. 1)
 
 ## Users as interaction networks 
 
-In the most general sense, network data consists of relational information amongst a collection of entities. A ubiquitous example is social network data, encoding the friendships (relations) amongst a sample of individuals. The increasing prevalence of data in this form has driven a burgeoning interest in methodologies suitable to their analysis, developing into a sub-field of statistics referred to by some as "statistical network analysis" - see for example the review by Salter-Townsend et al. (2012),[^salter] or the book of Kolaczyk and Csárdi (2014).[^kolaczyk]
+In the most general sense, network data consists of relational information amongst a collection of entities. A ubiquitous example is social network data, encoding the friendships (relations) amongst a sample of individuals (entities). The increasing prevalence of data in this form has driven a burgeoning interest in methodologies suitable to their analysis, developing into a sub-field of statistics referred as "statistical network analysis" - see for example the review by Salter-Townsend et al. (2012),[^salter] or the book of Kolaczyk and Csárdi (2014).[^kolaczyk]
 
-How does this relate to clickstreams? Well, by using the intermittent and bursty property of these data, we are able to partition a single user's data into a sequence of paths over webpages (Fig. 2). This represents an instance of a so-called **interaction network**, where one observes interactions amongst entities over time (here entities = webpages and interactions = paths). This differs subtly from the case where relations amongst entities are observed explicitly, such as in traditional social network data, and has led to recent work in the literature on new models.[^crane][^cai]
+How does this relate to clickstreams? Well, by using the intermittent and bursty property of these data, we are able to partition a single user's data into a sequence of paths over webpages (Fig. 2). This represents an instance of a so-called **interaction network**, where one observes interactions amongst entities over time (here entities=webpages and interactions=paths). This differs subtly from the case where relations amongst entities are observed explicitly, such as in traditional social network data, and has led to recent work in the literature on new models.[^crane][^cai]
 
 \figenv{
     /assets/phd-diagrams/interaction_network.png
@@ -33,7 +33,7 @@ How does this relate to clickstreams? Well, by using the intermittent and bursty
 }
 
 
-This, however, is not the complete picture. There is not data on just one user but many, leading to a sample of interaction networks (Fig. 3). Data of this form, where we observe **samples of networks**, is becoming ever more frequent. This is being driven heavily by advancements in fields such as neuroscience, where fMRI brain scan data are being converted to networks summarising brain connectivity. Relative to the case where a single network is observed, this raises new questions. For example, we might wonder what is the "average" network? Or how variable are the networks about this average? This has motivated a string of recent work in the networks literature on methods capable of providing answers to such questions.[^luna][^durante]
+This, however, is not the complete picture. There is not data on just one user but many, leading to a sample of interaction networks (Fig. 3). Data of this form, where we observe **samples of networks**, is appearing ever more frequently. This is being driven heavily by data collection advancements in fields such as neuroscience, where fMRI brain scan data are being converted to networks summarising brain connectivity. Relative to the case where a single network is observed, this raises new questions for a data analyst. For example, one might wonder what is the "average" network? Or how variable are the networks about this average? This has motivated a string of recent work in the literature on methods capable of providing answers to such questions.[^luna][^durante]
 
 
 \figenv{
