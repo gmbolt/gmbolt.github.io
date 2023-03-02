@@ -9,13 +9,13 @@ mintoclevel = 2
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/"]
+ignore = ["node_modules/", "google6d0f2989942ef341.html"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
 website_title = "George Bolt"
 website_descr = "Personal website."
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_url   = "https://gmbolt.github.io/"
 +++
 
 <!--
