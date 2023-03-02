@@ -6,20 +6,14 @@ rss = "List of research projects past and present."
 +++
 @def tags = ["phd", "project", "research"]
 
-# Outputs 
+# Other
 
-Page contents:
+*Page under development*
 
-\toc
+<!-- Page contents: -->
 
-
-## Notes
-
-## STOR-i References
-
-### Julia on STORM 
-
-## Marp Themes 
+<!-- \toc -->
+<!-- ## Marp Themes  -->
 
 
 

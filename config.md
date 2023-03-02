@@ -35,3 +35,12 @@ Add here global latex commands to use throughout your pages.
     </div>
     ~~~
 }
+
+\newcommand{\figenv}[3]{    
+    ~~~
+    <figure style="text-align:center;">
+    <img src="!#1" style="padding:0;#3" alt="#1"/>
+    <figcaption style="margin-left: auto; margin-right: auto;">#2</figcaption>
+    </figure>
+    ~~~
+}
