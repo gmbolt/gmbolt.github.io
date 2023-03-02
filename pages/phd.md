@@ -1,8 +1,6 @@
 +++
-title = "PhD"
-hascode = false
-date = Date(2022, 2, 19)
-rss = "Phd project."
+title = "PhD project"
+date = Date(2023, 3, 2)
 +++
 
 # Statistical Analysis of Multiple Interaction Network Data (PhD)

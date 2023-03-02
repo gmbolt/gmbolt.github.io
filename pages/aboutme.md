@@ -1,3 +1,8 @@
++++
+title = "Biography"
+date = Date(2023, 3, 2)
++++
+
 # Biography
 
 My academic journey began with a BSc in Mathematics at The University of Manchester, graduating in 2018. I then moved to Lancaster University to undertake a 4 year MRes+PhD in Statistics and Operational Research, as part of the STOR-i Centre for Doctoral Training. 
