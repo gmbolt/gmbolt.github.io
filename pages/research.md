@@ -16,8 +16,8 @@ My research touches upon
 
 ## Papers
 
-* [Modelling Populations of Interaction Networks via Distance Metrics](https://arxiv.org/abs/2206.09995), published in *arXiv*, 2022
-* [Distances for Comparing Multisets and Sequences](https://arxiv.org/abs/2206.08858), published in *arXiv*, 2022
+* ~~~<a href="https://arxiv.org/abs/2206.09995" target="_blank">Modelling Populations of Interaction Networks via Distance Metrics</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
+* ~~~<a href="https://arxiv.org/abs/2206.08858" target="_blank">Distances for Comparing Multisets and Sequences</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
 
 
 ## Projects
