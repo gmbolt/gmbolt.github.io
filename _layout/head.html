@@ -8,6 +8,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131054485-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131054485-1');
+  </script>
+  <!-- Franklin.jl stuff -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{if hasmath}} {{insert head_katex.html }}     {{end}}
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
