@@ -12,7 +12,7 @@ mintoclevel = 2
 ignore = ["node_modules/"]
 
 # Keep paths - Franklin.jl will leave these files "exactly as is"
-keep_path = ["google6d0f2989942ef341.html", "googleb18be41324b9dc6b.html"]
+keep_path = ["google6d0f2989942ef341.html", "googleb18be41324b9dc6b.html", "data_on_lake_2022/", "isba_2022/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
