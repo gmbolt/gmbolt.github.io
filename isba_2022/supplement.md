@@ -1,7 +1,7 @@
 ### Supplement - Modelling Populations of Path-observed Networks - ISBA World Meeting 2022
 
 
-*George Bolt - g.bolt@lancaster.ac.uk - https://lancaster.ac.uk/~boltg/*
+*George Bolt - g.bolt@lancaster.ac.uk - https://gmbolt.github.io*
 
 ![](posterior_sample.gif)
 

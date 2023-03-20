@@ -1,7 +1,7 @@
 # Supplement - Modelling Populations of Interaction Networks - Data on the Lake 2022 
 
 
-*George Bolt - g.bolt@lancaster.ac.uk - https://lancaster.ac.uk/~boltg/*
+*George Bolt - g.bolt@lancaster.ac.uk - https://gmbolt.github.io*
 
 ![](posterior_sample.gif)
 
