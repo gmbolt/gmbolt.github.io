@@ -9,7 +9,7 @@ mintoclevel = 2
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/"]
+ignore = ["node_modules/", "franklin.md"]
 
 # Keep paths - Franklin.jl will leave these files "exactly as is"
 keep_path = ["google6d0f2989942ef341.html", "googleb18be41324b9dc6b.html", "data_on_lake_2022/", "isba_2022/"]
