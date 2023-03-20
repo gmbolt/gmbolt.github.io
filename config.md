@@ -38,7 +38,7 @@ Add here global latex commands to use throughout your pages.
     </div>
     ~~~
 }
-
+<!-- Figure - args: 1=path to file; 2=caption; 3 = width -->
 \newcommand{\figenv}[3]{    
     ~~~
     <figure style="text-align:center;">
