@@ -3,7 +3,7 @@ title = "PhD project"
 date = Date(2023, 3, 2)
 +++
 
-# Statistical Analysis of Multiple Interaction Network Data (PhD)
+# Statistical Methods for Samples of Interaction Networks (PhD)
 
 This project was a collaboration between ~~~<a href="https://www.lancaster.ac.uk/stor-i/" target="_blank">STOR-i</a>~~~, the Centre for Doctoral Training (CDT) at Lancaster University where I did my PhD, and ~~~<a href="https://www.elsevier.com/en-gb" target="_blank">Elsevier</a>~~~, an academic publishing company. Elsevier provide various online services and tools for researchers, such as ~~~<a href="https://www.mendeley.com/" target="_blank">Mendeley</a>~~~ and ~~~<a href="https://www.sciencedirect.com/" target="_blank">ScienceDirect</a>~~~, and were interested in the problem of **user segmentation** - understanding who their users are and how they interact with their platforms. Our goal was to develop novel methodologies to assist with this task.
 

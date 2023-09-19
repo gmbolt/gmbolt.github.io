@@ -20,7 +20,7 @@ My research touches upon
 
 ## Projects
 
-\card{Statistical Analysis of Multiple Interaction Network Data (PhD)}{
+\card{Statistical Methods for Samples of Interaction Networks (PhD)}{
     Working in colaboration with Elsevier, this project focussed on the development of statistical methods to analyse their high-dimensional but structured platform interaction data.
 }{/pages/phd}{/assets/network.jpg}
 
