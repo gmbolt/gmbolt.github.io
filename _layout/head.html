@@ -18,26 +18,13 @@
   </script>
   
   <meta charset="UTF-8">
-
+  
   <!-- Franklin.jl stuff -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{if hasmath}} {{insert head_katex.html }}     {{end}}
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   {{insert style.html}}
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
-
-  <!-- begin SEO--> 
-  <!-- <meta property="og:locale" content="en-US">
-  <meta property="og:site_name" content="George Bolt">
-  <meta property="og:title" content="Home">
-  <link rel="canonical" href="https://gmbolt.github.io/">
-  <meta property="og:url" content="https://gmbolt.github.io/">
-  <meta property="og:description" content="About me">
-  
-  <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Person", "name" : "Chris Nemeth", "url" : "https://chris-nemeth.github.io", "sameAs" : null } </script> -->
-
-  <!--end SEO
-
   <!-- end custom head snippets -->
 </head>
 {{insert body_layout.html}}
