@@ -5,6 +5,14 @@
   }
 }
 
+@media (max-width: 811px) {
+  .franklin-content {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+
+
 @media (min-width: 1024px) {
   .franklin-content {
     width: 75%;
@@ -41,21 +49,48 @@ blockquote {
   padding-bottom: 0.5em;
   margin-top: 1.5em;
   margin-bottom: 1em;
-  font-size: 40px;
+  font-size: 38px;
 }
 
-
 .franklin-content h2 {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .franklin-content h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .franklin-content a {
   text-decoration: none;
 }
+
+@media (max-width: 811px)  {
+  .franklin-content h1 {
+    padding-bottom: 0.5em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+  }
+  .franklin-content {
+    font-size: 17px;
+  }
+  .franklin-content h1 {
+    font-size: 30px;
+  }
+  .franklin-content h2 {
+    font-size: 25px;
+  }
+  .franklin-content h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px)  {
+  .franklin-content {
+    font-size: 15px;
+  }
+}
+
+
 
 /* For some reason,
  * `h1, h2, h3 { a { color: ... } a:visited { color: ... } }` didn't work.

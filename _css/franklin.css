@@ -7,6 +7,7 @@
   --output-background: hsl(0, 0%, 98%);
   --small: 11px;
   --normal: 15px;
+  --normal-phone: 12px;
   --text-color: hsv(0, 0%, 20%);
 }
 
