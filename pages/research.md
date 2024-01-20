@@ -15,6 +15,7 @@ My research touches upon
 
 ## Papers
 
+* ~~~<a href="https://eprints.lancs.ac.uk/id/eprint/211859/8/2023boltphd.pdf" target="_blank">Statistical Methods for Samples of Interaction Networks</a>~~~, Bolt, G., *PhD Thesis*, 2022 
 * ~~~<a href="https://arxiv.org/abs/2206.09995" target="_blank">Modelling Populations of Interaction Networks via Distance Metrics</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
 * ~~~<a href="https://arxiv.org/abs/2206.08858" target="_blank">Distances for Comparing Multisets and Sequences</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
 
