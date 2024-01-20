@@ -1,6 +1,6 @@
 +++
 title = "Home"
-date = Date(2023, 3, 2)
+date = today()
 +++
 
 # Home

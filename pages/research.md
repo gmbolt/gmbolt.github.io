@@ -1,7 +1,7 @@
 +++
 title = "Research"
 hascode = true
-date = Date(2023, 3, 2)
+date = today()
 +++
 
 # Research

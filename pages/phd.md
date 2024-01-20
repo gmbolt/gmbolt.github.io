@@ -1,6 +1,6 @@
 +++
 title = "PhD project"
-date = Date(2023, 3, 2)
+date = today()
 +++
 
 # Statistical Methods for Samples of Interaction Networks (PhD)
