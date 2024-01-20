@@ -1,6 +1,7 @@
 +++
 title = "George Bolt - Home"
 date = today()
+url = "https://gmbolt.github.io/"
 +++
 
 # Home

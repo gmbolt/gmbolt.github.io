@@ -25,6 +25,15 @@
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   {{insert style.html}}
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
+  <!--SEO-->
+  {{isdef url}} <link rel="canonical" href="{{fill url}}">{{end}}
+  {{isdef url}} <meta property="og:url" content="{{fill url}}">{{end}}
+  {{isdef title}} <meta property="og:title" content="{{fill title}}">{{end}}
+  <meta property="og:site_name" content="{{fill website_title}}">
+  <script async="" src="//www.google-analytics.com/analytics.js"></script>
+  <script type="application/ld+json"> 
+    { "@context" : "http://schema.org", "@type" : "Person", "name" : "George Bolt", "url" : "https://gmbolt.github.io", "sameAs" : null } 
+  </script>
   <!-- end custom head snippets -->
 </head>
 {{insert body_layout.html}}

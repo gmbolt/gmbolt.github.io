@@ -4651,7 +4651,7 @@ a.reversefootnote:hover {
 
   .sidebar.sticky {
     overflow-y: auto;
-    height: calc(100vh - 2em - 2em);
+    height: 500px;
   }
 }
 
