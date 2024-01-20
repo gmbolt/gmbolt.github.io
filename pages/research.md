@@ -1,7 +1,8 @@
 +++
 title = "Research"
-hascode = true
 date = today()
+url = "https://gmbolt.github.io/pages/research/"
+rss = "References to past research."
 +++
 
 # Research

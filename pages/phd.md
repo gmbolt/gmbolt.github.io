@@ -1,6 +1,8 @@
 +++
 title = "PhD project"
 date = today()
+url = "https://gmbolt.github.io/pages/phd/"
+rss = "Details on my PhD research project."
 +++
 
 # Statistical Methods for Samples of Interaction Networks (PhD)
