@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "George Bolt - Home"
 date = today()
 +++
 
