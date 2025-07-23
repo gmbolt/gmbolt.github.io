@@ -17,26 +17,33 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         persist-credentials: false
     # NOTE: Python is necessary for the pre-rendering (minification) step
     - name: Install python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.8'
+    # - run: pip install matplotlib
     # NOTE: Here you can install dependencies such as matplotlib if you use
     # packages such as PyPlot.
     # - run: pip install matplotlib
     - name: Install Julia
       uses: julia-actions/setup-julia@v1
       with:
-        version: 1.6
+        version: '1.10'
 
     - name: Setup Pages
       id: pages
@@ -58,7 +65,7 @@ jobs:
       # Automatically uploads an artifact from the './_site' directory by default
       uses: actions/upload-pages-artifact@v3
       with:
-        path: "__site/" # Default is "_site/" but seems Franklin returns with two underdashes
+        path: "./__site" # Default is "_site/" but seems Franklin returns with two underdashes
 
   # Deployment job
   deploy:
@@ -70,4 +77,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
