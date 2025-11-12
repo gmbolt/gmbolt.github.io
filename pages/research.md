@@ -7,7 +7,8 @@ rss = "References to past research."
 
 # Research
 
-My research touches upon
+My research has touched upon 
+
 * Statistical network analysis 
 * Bayesian statistics
 * Computational statistics
@@ -15,8 +16,9 @@ My research touches upon
 
 ## Papers
 
-* ~~~<a href="https://eprints.lancs.ac.uk/id/eprint/211859/8/2023boltphd.pdf" target="_blank">Statistical Methods for Samples of Interaction Networks</a>~~~, Bolt, G., *PhD Thesis*, 2023 
-* ~~~<a href="https://arxiv.org/abs/2206.09995" target="_blank">Modelling Populations of Interaction Networks via Distance Metrics</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
+
+* ~~~<a href="http://jmlr.org/papers/v26/22-0706.html" target="_blank">Modelling Populations of Interaction Networks via Distance Metrics</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., *Journal of Machine Learning Research*, 2025
+* ~~~<a href="https://eprints.lancs.ac.uk/id/eprint/211859/8/2023boltphd.pdf" target="_blank">Statistical Methods for Samples of Interaction Networks</a>~~~, Bolt, G., *PhD Thesis*, 2023
 * ~~~<a href="https://arxiv.org/abs/2206.08858" target="_blank">Distances for Comparing Multisets and Sequences</a>~~~, Bolt, G., Lunagómez, S. and Nemeth, C., published in *arXiv*, 2022
 
 
